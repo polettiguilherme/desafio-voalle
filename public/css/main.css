@@ -1,0 +1,129 @@
+*{
+    margin:0, auto;
+    outline:none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*css do cadastro*/
+.container{
+    height:100vh;
+    max-width:60%;
+    background-color: white;
+    display: flex;
+}
+.form{
+    border:2px dashed rgb(136, 5, 250);
+    padding:40px;
+}
+.main-row{
+    height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+.title{
+    color: rgb(136, 5, 250);
+}
+.input{
+    width:100%;
+    border:2px solid black;
+    border-radius:0.5rem;
+    height:50px;
+    margin-bottom:30px;
+}
+.buttons{
+    margin-top:50px;
+    display:flex;
+    justify-content:space-between;
+}
+.btn{
+    height:50px;
+    width:150px;
+}
+
+#cadastrar{
+    background-color: rgb(136, 5, 250);
+    border:none;
+    color:white;
+}
+#cadastrar:hover{
+    background-color: rgba(136, 5, 250, 0.452);
+}
+#cancel{
+    background-color: white;
+    border-color:rgb(136, 5, 250);
+    color:rgb(136, 5, 250);
+}
+#cancel:hover{
+    background-color: rgba(145, 145, 145, 0.452);
+}
+.form-check-input:checked{
+    background-color:rgb(136, 5, 250);
+}
+.error{
+    color:red;
+    font-size: 10pt;
+    margin-top: -25px;
+}
+
+/* css da listagem */
+.container2{
+    margin:auto;
+    height:100vh;
+    max-width:80%;
+    background-color: white;
+    display: flex;
+}
+#cont-index{
+    border:2px dashed rgb(136, 5, 250);
+    padding:50px;
+}
+.lista{
+    justify-content: space-between;
+    margin-left:1px;
+    margin-bottom: 5px;
+}
+.nome{
+    width:70%;
+    height:70px;
+    border:2px dashed black;
+    border-radius: 0.5rem;
+    display:flex;
+    align-items: center;
+}
+#detalhes{
+    width:25%;
+    height:70px;
+    background-color: rgb(136, 5, 250);
+    border:none;
+    border-radius:0.5rem;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#detalhes:hover{
+    background-color: rgba(136, 5, 250, 0.452);
+}
+
+/* css dos detalhes */
+
+.container3{
+    margin:auto;
+    padding-top:50px;
+    height:100vh;
+    max-width:40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes{
+    border:2px dashed rgb(136, 5, 250);
+    height:50%;
+    padding:40px;
+    color: rgb(78, 78, 78);
+}
+
+.infos{
+    margin-left:30px;
+}
